@@ -1,0 +1,66 @@
+*, *::before, *::after{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 16px;
+  color: whitesmoke;
+}
+
+body{
+  background-color: black;
+}
+
+.recipe__title{
+  text-align: center;
+  font-size: 3rem;
+  margin: 2rem auto;
+}
+
+.recipe__sub-title{
+  margin: 1rem 0;
+  text-align: center;
+  color:bisque;
+  font-size: 2rem;
+}
+
+.recipe__img{
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.container{
+  width: 50%;
+  min-width: 400px;
+  margin: 0 auto;
+}
+
+
+.recipe__steps li{
+  margin-bottom: 1rem;
+}
+
+.title{
+  margin: 2rem auto;
+  text-align: center;
+  font-size: 5rem;
+  color: whitesmoke;
+}
+
+.links__container{
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.link, .link a:visited{
+  color: blanchedalmond;
+}
+
+.link{
+  list-style-type: none;
+  margin: 0.5rem auto;
+}
